@@ -1,10 +1,10 @@
-function Main() {
+function Main({ show }) {
   return (
-    <div className="text-center py-28 bg-zinc-100">
-      <h1 className="text-5xl font-bold leading-30">
+    <div className={"text-center py-28 bg-zinc-100 " + (show && "mt-12")}>
+      <h1 className="text-3xl sm:text-5xl font-bold leading-30">
         A modern way to <br></br> build websites.
       </h1>
-      <p className="mt-5 text-xl">
+      <p className="mt-3 sm:mt-5 text-sm sm:text-xl">
         Empower designer to build professional,custom websites
         <br></br> in a completely visual canvas with no code.
       </p>

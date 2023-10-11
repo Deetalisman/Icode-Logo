@@ -15,30 +15,30 @@ function Body() {
 
 function Bodyimg() {
   return (
-    <div className="flex mt-6 justify-between mx-4">
-      <div className="w-1/5">
-        <img src={img1} width="100%" className="h-28" />
+    <div className="flex mt-6 justify-between mx-4 flex-wrap">
+      <div className="sm:w-1/5 w-5/12 mb-7">
+        <img src={img1} width="100%" className=" h-40" />
         <p className="text-sm  mt-3">
           Redesigning my site increased sales by over 400% in one week.
         </p>
         <p className="mt-2 text-sm text-slate-500">Jul 1,2009</p>
       </div>
-      <div className="w-1/5">
-        <img src={img2} width="100%" className="h-28" />
+      <div className="sm:w-1/5  w-5/12 mb-7">
+        <img src={img2} width="100%" className="h-40" />
         <p className="text-sm  mt-3">
           Redesigning my site increased sales by over 400% in one week.
         </p>
         <p className="mt-2 text-sm text-slate-500">Jul 1,2009</p>
       </div>
-      <div className="w-1/5">
-        <img src={img3} width="100%" className="h-28" />
+      <div className="sm:w-1/5  w-2/5 mb-7 ">
+        <img src={img3} width="100%" className="h-40" />
         <p className="text-sm  mt-3">
           Redesigning my site increased sales by over 400% in one week.
         </p>
         <p className="mt-2 text-sm text-slate-500">Jul 1,2009</p>
       </div>
-      <div className="w-1/5">
-        <img src={img4} width="100%" className="h-28" />
+      <div className="sm:w-1/5  w-2/5 mb-7">
+        <img src={img4} width="100%" className="h-40" />
         <p className="text-sm  mt-3">
           Redesigning my site increased sales by over 400% in one week.
         </p>
